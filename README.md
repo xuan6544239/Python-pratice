@@ -3,7 +3,7 @@
 <ul>
   <li>[機器學習影像辨識]</li>
   <li>
-    [123](https://xuan6544239.github.io/My-web/)
+    [123](DataVisualization/final HW.ipynb)
     [資料視覺化:使用Pandas，pingouin、seaborn進行分析](DataVisualization/final HW.ipynb)
   </li>
 <ul>
