@@ -1,7 +1,7 @@
 # RESUME
   ## Python實作成果<br>
   [機器學習影像辨識](santaIdentify/test_network.py)<br>
-  [資料視覺化:使用Pandas，pingouin、seaborn進行分析](DataVisualization/final HW.ipynb)
+  [資料視覺化](DataVisualization/final HW.ipynb)
   [資料視覺化:使用Pandas，pingouin、seaborn進行分析](DataVisualization/final HW.ipynb)<br>
     
 ## [個人網站](https://xuan6544239.github.io/My-web/)<br> 
