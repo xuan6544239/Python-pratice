@@ -2,7 +2,7 @@
   ## Python實作成果<br>
   [機器學習影像辨識](santaIdentify/test_network.py)<br>
   [資料視覺化](DataVisualization)<br>
-  [關鍵字網路爬蟲](HW/HW3/HW3.ipynb)<br>
+  [在Yahoo Finance以關鍵字War進行新聞和文章爬蟲並轉存成csv和json檔](HW/HW3/HW3.ipynb)<br>
   ## 網站實作成果<br>
   [購物網站後端:使用JSP、MySQL](demo/jsp)<br> 
   [個人網站](https://xuan6544239.github.io/My-web/)<br> 
