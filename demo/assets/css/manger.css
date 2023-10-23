@@ -1,0 +1,150 @@
+/*--管理員介面開始--*/
+.manger
+{
+    width: 100%; 
+    z-index: -1;
+    padding-top: 150px;
+}
+.login1{
+   
+    background-color:rgba(90, 216, 157, 0.479);
+    border-radius: 8px;
+    backdrop-filter:blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:0px auto; 
+    width:1000px;
+    height: 280px;
+}
+.formmanger
+{
+    width: 400px
+    color:#FFF;
+}
+.formmanger h2
+{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFF;
+}
+/*--管理員介面結束--*/
+/*--編輯/刪除/查詢商品開始--*/
+.trade
+{
+    width:80%;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:150px;
+    margin-bottom:50px;
+    font-family: "Microsoft JhengHei";
+    color: rgb(20, 69, 82);
+}
+.tradetitle
+{
+    height:60px;
+    line-height:60px;
+    font-size:40px;
+    font-weight:500;
+    text-align:center;
+}
+.trademain
+{
+    background-color: #fff;
+    height:400px;
+}
+.trade1
+{
+    display:flex;
+    border-bottom:1px solid black; 
+}
+.trade1 li
+{
+    display:flex;
+    margin-bottom:0;
+    margin-right:885px;
+    color:#458076;
+    font-size:23px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold;
+    line-height: normal;
+}
+.trade1 form
+{
+   display: flex;
+   height: 65px;
+   padding:10px 10px 5px 10px;
+   margin-top: 80px;
+}
+.trade1 input
+{
+    display: flex;
+    color: #458076;
+    font-size:25px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold;
+    left: -80px;
+}
+.trade2
+{
+    margin-top:5px;
+}
+.trade2 table
+{
+    width:100%;
+    text-align:center;
+    font-size:18px;
+}  
+.trade2 th
+{
+    background-color: rgb(181, 250, 223);
+    line-height: 50px;
+    border: 2px solid #458071;
+    color: #458069;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold;
+    font-size: 20px;
+}
+.trade2 td
+{
+    border: 2px solid #458071;
+    line-height: 50px;
+    color: #458069;
+    font-family: "Microsoft JhengHei";
+    font-size: 20px;
+}
+.trade2 input
+{
+    height: 45px;
+    width: 150px;
+}
+/*--編輯/刪除/查詢商品結束--*/
+.main-nav .inquire
+{
+	display:none;
+	position: absolute;
+	top: 80%;
+	width:16%;
+	right:29%;
+	height:auto;
+	border-radius:15px;
+	background-color: rgba(250,250,250,.95);
+	box-shadow: 5px 5px 10px rgba(33, 100, 78, 0.6);
+	padding:10px;
+	line-height:48px;
+	font-size:17px;
+}
+.main-nav .inquire a
+{
+	text-decoration: none;
+	color: black;
+	transition: .2s;
+	padding-right:60%;
+}
+.main-nav .inquire a:hover
+{
+	background-color:rgba(17, 114, 121, 0.5);
+	color:#fff;
+	width: 150%;
+}

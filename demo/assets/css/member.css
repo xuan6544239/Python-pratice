@@ -1,0 +1,483 @@
+/*--側邊導覽列開始--*/
+.margintop
+{
+    margin-top:150px;
+}
+.barfont
+{
+    font-weight: bolder;
+}
+.membertop
+{
+	width: 100%;
+	height: 100px;
+	text-align: left;
+}
+.membertop h1
+{
+    position: absolute;
+	color:#4e85b3;
+	font-weight: bold;
+	font-size:50px;
+	font-family: "Microsoft JhengHei";
+    margin: 150px 25px;
+    
+}
+/*--側邊導覽列結束--*/
+/*--交易紀錄開始--*/
+.trade
+{
+    width:100%;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:0px;
+    margin-bottom:50px;
+    font-family: "Microsoft JhengHei";
+    color: #53a9ac;
+}
+.trade1 a
+{
+    text-decoration:none;
+    color:black;
+    color: #438d81;
+}
+.trade1 ul
+{
+    display:flex;
+    font-size:18px;
+    margin-bottom:0;
+    margin-right:85px;
+}
+.trade1 form
+{
+    padding:10px 10px 5px 10px;
+}
+.trade1 li
+{
+    font-size:30px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold;
+    padding:10px 10px 5px 10px;
+}
+.trade2
+{
+    margin-top:5px;
+}
+.trade2 table
+{
+    width:100%;
+    text-align:center;
+    font-size:18px;
+}
+.trade2 table th
+{
+    text-decoration:underline;
+}
+.trade2 th
+{
+    background-color:rgb(180, 255, 230);
+    height: 60px;
+    border: 2px solid #42608d;
+    color: #45807d;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold;
+    font-size: 25px;
+}
+.trade2 td
+{
+    border: 2px solid #42608d;
+    height: 40px;
+    color: #45807d;
+    font-family: "Microsoft JhengHei";
+    font-size: 20px;
+}
+/*--交易紀錄結束--*/
+/*--評論紀錄開始--*/
+.comment
+{
+    position: absolute;
+    width:100%;
+    height:auto;
+    right:90px;
+    margin-top:0px;
+    margin-bottom:50px;
+    font-family: "Microsoft JhengHei";
+    color: #45807d;
+}
+.comment
+{
+	width: 100%;
+	height:auto;
+}
+.comment table
+{
+	width:100%;
+}
+.comment th
+{
+	text-align: center;
+	font-weight: bold;
+	text-decoration:underline;
+	font-size: 30px;
+}
+.comment td
+{
+	text-align: center;
+	font-size: 25px;
+	border-right:1px solid #42608d;
+}
+.comimg
+{
+    width:180px;
+    height: 170px;
+    margin: 0px 120px;
+}
+/*--評論紀錄結束--*/
+/*會員資料編輯開始*/
+.box
+{
+    z-index: -1;
+    width: 100%;
+    padding-top: 150px;
+}
+.login2
+{
+    display: flex;
+    width: 600px;
+    color: rgb(20, 69, 82);
+    background-color:#89B0AE;
+    justify-content: center;
+    align-items:center;
+    margin:0px auto;
+    height:900px;
+}
+.form2
+{
+    width: 38%;
+}
+.form2 p
+{
+    color: #2a4975;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #2a4975;
+    text-align: center;
+    font-size: 50px;
+}
+.form2 .group2
+{
+    margin-bottom: 20px;
+}
+.form2
+{
+    line-height: 2;
+}
+.group2 label
+{
+    position: relative;
+    right: 25%;
+}
+.form2 input
+{
+    position: relative;
+    width: 350px;
+    border: 1px solid #aaa;
+    line-height: 2.5;
+    border-radius: 5px;
+    font-size: 13px;
+    right: 25%;
+}
+.form2 .btn-group2
+{
+    position: relative;
+    font-size: 0;
+    width: 250px;
+    right: 57px;
+}
+.form2 .btn1
+{
+    font-size: 16px;
+    border-radius: 5px;
+    border:none;
+    width: 130px;
+    padding:10px 0;
+    margin-top: 10px;
+}
+.form2 .btn1 + .btn1
+{
+    position: absolute;
+    margin-left: 90px;
+}
+.btn1 
+{
+    padding: 10px 20px;
+    border: 1px solid #C7C7C7;
+    background: -webkit-linear-gradient(#BFBFBF, #F7F7F7);
+    background: -o-linear-gradient(#BFBFBF, #F7F7F7);
+    background: linear-gradient(#BFBFBF, #F7F7F7);
+    background-color: #F7F7F7;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #454680;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    cursor: pointer;
+}
+.btn1:hover 
+{
+    background: none;
+    background-color: #F7F7F7;
+    border: 1px solid #ffffff;
+}
+.btn1:active 
+{
+    position: relative;
+    top: 1px;
+}
+.login3
+{
+    display: flex;
+    width: 600px;
+    color: rgb(20, 69, 82);
+    background-color:#89B0AE;
+    justify-content: center;
+    align-items:center;
+    margin:0px auto;
+    height:700px;
+}
+.btn-group-1
+{
+    font-size: 0;
+}
+.btn-group-1 .btn1
+{
+    font-size: 18px;
+    border-radius: 5px;
+    border:none;
+    width: 350px;
+    height: 37px;
+    margin-top: 10px;
+    margin-left:-55px;
+}
+/*會員資料編輯結束*/
+/*品牌理念開始*/
+.notice1
+{
+    margin-top: 165px;
+    width: 1300px;
+    margin-left: 25px;
+	font-family: "Microsoft JhengHei";
+	border-width: 5px;
+	border-color:rgb(79, 133, 154);
+	border-style:solid;
+	padding: 20px 100px 20px 100px;
+    color: #456d80;
+    border-radius: 10px;
+}
+.noticet2
+{
+	font-size: 45px;
+}
+.advantage 
+{
+    border: 0.5px solid #456d80;
+}
+.great
+{
+    font-size: 28px;
+}
+/*品牌理念結束*/
+/*--組員介紹開始--*/
+.container2
+{
+    margin-top: 145px;
+    width: 100%;
+}
+content
+{
+    width: 100%;
+	height:100%;
+}
+h1
+{
+    height:100px;
+    font-size: 40pt;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold;
+    text-align: center;
+    color:#2e52b6;
+}
+.people
+{
+    margin-right: -20px;
+    height: 300px;
+}
+.col-md-10
+{
+    margin-left: 10%;
+}
+.circle
+{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.circle:hover
+{
+    border-radius: 50%;
+    width: 310px;
+    height: 310px;
+}
+.hra
+{
+    border: 0.5px solid rgb(157, 200, 240); 
+}
+.hrb
+{
+    border: 0.5px solid rgba(141, 245, 167, 0.884); 
+}
+/*--people1 star--*/
+.lin
+{
+    color: #ac2121f6;
+}
+h3.lin
+{
+	font-size: 12pt;
+	font-family: "Microsoft JhengHei";
+    color:#ac3f21;
+    display: inline-block;
+
+}
+h4.lin
+{
+    font-size: 36pt;
+    font-weight: bold;
+    font-family:  "Microsoft JhengHei";
+    color:#ac3f21;
+    text-align: left;
+    display: inline-block;
+}
+/*--people1 stop--*/
+/*--people2 star--*/
+.wu
+{
+    color: #ac2121f6;
+}
+h3.wu
+{
+	font-size: 12pt;
+    font-family:  "Microsoft JhengHei";
+    color:#ac3f21;
+    display: inline-block;
+}
+h4.wu
+{
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei";
+    color:#ac3f21;
+    text-align: right;
+    display: inline-block;
+}
+/*--people2 stop--*/
+/*--people3 star--*/
+.zhang
+{
+    color: #ac2121f6;
+}
+h3.zhang
+{
+    font-size: 12pt;
+    font-family: "Microsoft JhengHei";
+    color:#ac3f21;
+    display: inline-block;
+}
+h4.zhang
+{
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei";
+    color:#ac3f21;
+    text-align: left;
+    display: inline-block;
+}
+/*--people3 stop--*/
+/*--people4 star--*/
+.lee
+{
+    color: #ac2121f6;
+}
+h3.lee
+{
+	font-size: 12pt;
+    font-family:  "Microsoft JhengHei";
+    font-family: Lucida Sans Unicode;
+    color:#ac3f21;
+    display: inline-block;
+}
+h4.lee
+{
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei";
+    color:#ac3f21;
+    text-align: right;
+    display: inline-block;
+}
+/*--people4 stop--*/
+/*--people5 star--*/
+.xu
+{
+    color: #ac2121f6;
+}
+h3.xu
+{
+    font-size: 12pt;
+    font-family: "Microsoft JhengHei";
+    color:#ac3f21;
+    display: inline-block;
+}
+h4.xu
+{
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei";
+    color:#ac3f21;
+    text-align: left;
+    display: inline-block;
+}
+/*--people5 stop--*/
+/*--組員介紹結束--*/
+/*--聯絡我們開始--*/
+.call
+{
+    font-size: 30pt;
+    text-align: center;
+    color: #2e52b6;
+}
+.col-xl-8 center
+{
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+.col-xl-12 img
+{
+    position: relative;
+    margin-top: -90px;
+    margin-left: 37%;
+	width:100px;
+	align-items: center;
+}
+.callus
+{
+    width: 600px;
+    margin-left: 45%;
+}
+/*--聯絡我們結束--*/

@@ -1,0 +1,301 @@
+/*--購物車開始--*/
+.margintop
+{
+    margin-top: 155px;
+    margin-left: 40px;
+}
+.title1
+{
+    position: relative;
+    font-family: "Microsoft JhengHei";
+    bottom: -10px;
+}
+.title1 img
+{
+    position: relative;
+    width: 100px;
+    top: 10px;
+}
+.hr1
+{
+    border-width: 2.5px;
+    background-color:#19889b; 
+}
+.div1
+{
+
+    background-color: rgb(167, 201, 224);
+    height: 100%;
+    width: 90%;
+    margin-left: 80px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 17px;
+    border-radius: 6px;
+}
+.shh
+{
+    float: left;
+    width: 50%;
+    font-size: 25px;
+    margin-top: -20px;
+}
+.pr
+{
+    float: left;
+    width: 20%;
+    margin-top: -20px;
+}
+.co
+{
+    float: left;
+    width: 10%;
+    margin-top: -20px;
+}
+.to
+{
+    float: left;
+    width: 10%;
+    margin-top: -20px;
+
+}
+.op
+{
+    float: left;
+    width: 10%;
+    margin-top: -20px;
+}
+.div2
+{
+    background-color: rgb(207, 232, 250);
+    height: 300px;
+    width: 90%;
+    padding: 30px;
+    margin-left: 80px;
+    border-radius: 6px;
+} 
+.shp
+{
+    float: left;
+    width: 20%;
+   
+}
+.shp img
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.tit
+{
+    float: left;
+    width: 10%;
+    margin-top: 100px;
+
+}
+.prr
+{
+    float: left;
+    width: 17%;
+    margin-top: 100px;
+    margin-left: 240px;
+}
+.div2#myfrom
+{
+    float: left;
+    width: 3%;
+    margin-left: -150px;
+}
+.pl
+{
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+input.plplus
+{
+    width: 25px;
+    height: 35px;
+    border: 1px solid #aaa;
+    background: #f8f8f8;
+}
+input.plminus
+{
+    width: 25px;
+    height: 35px;
+    border: 1px solid #aaa;
+    background: #f8f8f8;
+}
+.tot
+{
+    float: left;
+    width: 10%;
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.button1
+{
+    position: absolute;
+    font-weight: bolder;
+    background-color: #00ef93; 
+    width: 50px;
+    height: 30px;
+    font-size: medium;
+    left: 5%;
+    margin-top: -35px;
+    margin-left: 1090px;
+}
+.button2
+{
+    position: absolute;
+    background-color: #6b9c9e; 
+    width: 100px;
+    height: 40px;
+    left: 88.5%;
+}
+.ok
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+/*--購物車結束--*/
+/*--結帳開始--*/
+.margintop2
+{
+    margin-top: 155px;
+    left: 50px;
+}
+.write
+{
+    position: relative;
+    font-family: "Microsoft JhengHei";
+    bottom: -10px;
+    width: 90%;
+    margin-left: 5%;
+}
+.title2
+{
+    position: relative;
+    font-family: "Microsoft JhengHei";
+    bottom: -10px;
+}
+.title2 img
+{
+    position: relative;
+    width: 80px;
+    top: 10px;
+}
+.hr2
+{
+    border-width: 2px;
+    background-color:#19889b; 
+}
+.contentAform
+{
+    width:60%;
+    height: auto;
+	background-color: rgb(200, 228, 223);
+	margin-left:auto;
+  	margin-right:auto;
+  	text-align:center;
+  	padding:15px;
+  	line-height:90px;
+  	font-size:20px;
+  	color:rgb(80, 131, 179);
+    font-weight:bolder;
+    line-height: 60px;
+}
+.contentAform input[type="text"]
+{
+    width:70%;
+    height: 40px;
+	margin-left:10px;
+	border-radius:5px;
+	border:1px rgb(83, 131, 163) solid;
+}
+.contentAform input[type="text"]:focus
+{
+	outline:none;
+}
+.contentAform input[type="radio"]
+{
+	width:15px;
+	height:15px;
+	margin-left:28px;
+}
+.hr3
+{
+    height: 1px;
+    border:  dashed #557991;
+    border-width:1.5px solid #000000;
+    background-color:#ecf1f1; 
+}
+.billselect
+{
+    margin-top:10px;
+    text-align:left;
+}
+.billselect > p
+{
+    font-size:20px;
+    width:100%;
+    padding:5px;
+}
+.deliverb
+{
+    position: relative;
+    top: -20px;
+    left: 20%;
+}
+.deliverb p
+{
+
+    position: relative;
+    top: 17.5px;
+}
+.pay
+{
+    position: relative;
+    font-size: 20px;
+    margin-top: -150px;
+    margin-left: 50%;
+}
+.payb
+{
+    position: relative;
+    left: 40px;
+    top: -20px;
+}
+.deliver,.pay p
+{
+    position: relative;
+    padding:5px;
+    font-size:20px;
+    left: 38px;
+}
+.sa,.sb
+{
+    width: 150px; 
+    height: 40px;
+    padding: 6px 10px;
+    border: 1px solid rgb(83, 124, 163);
+    border-radius: 4px;
+}
+.sa,.sb:focus
+{
+    outline:none;
+}
+.sa
+{
+    margin-left: 0px;
+}
+.bn
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+/*--結帳結束--*/

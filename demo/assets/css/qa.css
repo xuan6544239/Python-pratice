@@ -1,0 +1,25 @@
+.qa h1
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+	color:#4e85b3;
+	font-weight: bold;
+	font-size:50px;
+	font-family: "Microsoft JhengHei";
+    margin: 150px 25px;
+    
+}
+
+.abc{
+  position: absolute;
+  top: 250px;
+  left: 0px;
+}
+.accordion-item
+{
+  padding-left: 60px;
+  width:1300px;
+  
+}
+

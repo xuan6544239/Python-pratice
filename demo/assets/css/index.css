@@ -1,0 +1,551 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*--Header開始--*/
+.stay-top
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index:99;
+}
+.shipping
+{
+	position:absolute;
+	width:100%;
+	height:auto;
+	font-size:15px;
+	padding-top:10px;
+	z-index:4;
+	display:flex;
+	justify-content:flex-end;
+}
+.shipping a
+{
+	position:relative;
+	color:black;
+	padding-right:20px;
+	text-decoration:none;
+}
+.shipping .A:after
+{
+	position:absolute;
+	color: #ccc;
+	content:'';
+	left:0%;
+	right:100%;
+	bottom:0;
+	height:0;
+	border-bottom:1.5px solid black;
+	transition:.4s;
+}
+.shipping .A:hover:after
+{
+	left:0;
+	right:0;
+}
+.shipping .A:hover
+{
+	color: #ccc;
+	top:1px;
+}
+.shipping .member
+{
+	position:absolute;
+	display:none;
+	top:95%;
+	width:100px;
+	right:1.3%;
+	height:auto;
+	border-radius:15px;
+	background-color: rgba(250,250,250,.95);
+	box-shadow: 5px 5px 10px rgba(33, 100, 78, 0.6);
+	padding:10px;
+	font-size:15px;
+	text-align: center;
+}
+.shipping .member a
+{
+	text-decoration:none;
+	color: black;
+	transition:.2s;
+}
+.shipping .member a:hover
+{
+	background-color:rgba(17, 114, 121, 0.5);
+	color:#fff;
+	width: 100%;
+}
+.shipping li:hover > ul
+{
+   display: block;
+}
+.shipping .cart
+{
+	position: relative;
+	border-left:2px solid black;
+	top: -2px;
+}
+.shipping .cart img
+{
+	position: relative;
+	width:30px;
+	height:30px;
+	padding-left:5px;
+	margin-right: -10px;
+	top: -2px;
+}
+.shipping .cart img:hover
+{
+	position: relative;
+	color: #ccc;
+	top: -2px;
+	left: 1px;
+}
+.main-header
+{
+	background-color:#fff;
+	padding:12.5px;
+}
+.main-header .container
+{
+	position: relative;
+	top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width:1200px;
+	height: 100px;
+	margin:auto;
+	z-index:4;
+}
+.main-header .logo
+{
+	margin-right:80px;
+}
+.main-header .logo img
+{
+	position: relative;
+	width:150px;
+	align-items: center;
+	top: -25px;
+}
+.main-header .inner
+{
+	margin-right:40px;
+}
+.main-header .inner img
+{
+	position: relative;
+	width:5px;
+	height: 39%;
+	align-items: center;
+}
+.main-header .main-nav-a
+{
+	margin-right:20px;
+}
+.main-header .main-nav-a img
+{
+	position: relative;
+	width:39px;
+	height: 39%;
+	align-items: center;
+}
+.main-header .sh
+{
+	margin-right:20px;
+}
+.main-header .sh img
+{
+	position: relative;
+	width:30px;
+	height: 39%;
+	align-items: center;
+}
+.main-header .inner2 
+{
+	margin-right:20px;
+}
+.main-header .inner2 img
+{
+	position: relative;
+	width: 30px;
+	height: 40%;
+	align-items: center;
+}
+.main-header .main-nav
+{
+	display: flex;
+	font-size:20px;
+}
+.main-header .main-nav .main-nav-a
+{
+	position: relative;
+	color: black;
+	padding: 15px 60px;
+	transition: .3s;
+	padding-bottom:30px;
+	font-size:25px;
+	right: 80px;
+}
+.main-header .main-nav  .main-nav-a:hover
+{
+	top:8px;
+}
+.main-header .main-nav .main-nav-a:after
+{
+	position: absolute;
+	content: '';
+	left: 50%;
+	right: 50%;
+	bottom: 45px;
+	height: 0;
+	transition: .3s;
+}
+.main-header .main-nav .main-nav-a:hover:after
+{
+	left: 0;
+	right: 0;
+}
+.main-nav .aboutus
+{
+	position: absolute;
+	display:none;
+	top: 70%;
+	width:16%;
+	right:68.5%;
+	height:auto;
+	border-radius:15px;
+	background-color: rgba(250,250,250,.95);
+	box-shadow: 5px 5px 10px rgba(33, 100, 78, 0.6);
+	padding:10px;
+	line-height:48px;
+	font-size:17px;
+	display: none; 
+}
+.main-nav .aboutus a
+{
+	text-decoration:none;
+	color: black;
+	transition:.2s;
+	padding-right:60%;
+}
+.main-nav .aboutus a:hover{
+
+	background-color:rgba(17, 114, 121, 0.5);
+	color:#fff;
+	width: 120%;
+}
+.main-nav .shop
+{
+	display:none;
+	position: absolute;
+	top: 70%;
+	width:16%;
+	right:49%;
+	height:auto;
+	border-radius:15px;
+	background-color: rgba(250,250,250,.95);
+	box-shadow: 5px 5px 10px rgba(33, 100, 78, 0.6);
+	padding:10px;
+	line-height:48px;
+	font-size:17px;
+}
+.main-nav .shop a
+{
+	text-decoration: none;
+	color: black;
+	transition: .2s;
+	padding-right:60%;
+}
+.main-nav .shop a:hover
+{
+	background-color:rgba(17, 114, 121, 0.5);
+	color:#fff;
+	width: 150%;
+}
+.main-nav li:hover > ul
+{
+	display: block;
+}
+.main-header .main-nav .inner
+{
+	position: relative;
+	margin-right:30px;
+}
+.main-header .main-nav .inner2
+{
+	position: relative;
+	margin-right:30px;
+}
+/*--Header結束--*/
+/*--登入介面彈跳開始--*/
+.dialog
+{
+	position:fixed;
+	top:20%;
+	left:34%;
+	border-radius:8px;
+	display:none;
+	z-index:4;
+	transition:.5s;
+	background-color:rgba(87, 151, 74, 0.973);
+	backdrop-filter:blur(8px);
+	width:500px;
+	height:550px;
+	padding-top:40px;
+	font-family: "Microsoft JhengHei";
+}
+.dialog >.closedialog
+{
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+.dialog >.closedialog img
+{
+	background-color:#ccc;
+	width:35px;
+	height:35px;
+	border-radius:999em;
+}
+.dialog>.close
+{
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+.dialog>.close img
+{
+	background-color:#ccc;
+	width:35px;
+	height:35px;
+	border-radius:999em;
+}
+.frama
+{
+	z-index: -1;
+	width: 100%;
+}
+.login
+{
+	display: flex;
+	align-items:center;
+	width:300px;
+	height:440px;
+	border-radius:8px;
+	padding:20px;
+	margin: 0px auto;
+}
+.form
+{
+	width:400px
+}
+.form h2
+{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #FFF;
+	color:#FFF;
+	text-align: center;
+    font-size: 35px;
+}
+.form .group
+{
+	margin-bottom: 20px;
+	color:#FFF
+}
+.form label
+{
+	position: relative;
+	line-height: 2;
+	font-size: 20px;
+	right: 12%;
+}
+.form input
+{
+	position: relative;
+	width: 115%;
+	margin-left: 25px;
+	border: 1px solid #FFF;
+	line-height: 3;
+	border-radius: 5px;
+	font-size: 14px;
+	right: 20%;
+}
+.btn-group .btn
+{
+	font-size: 15px;
+	border-radius: 5px;
+	border:none;
+	width: 100px;
+	padding:10px;
+	margin-top: 7px;
+	margin:0px 45px 0px 0px;
+}
+.btn-group1
+{
+	padding-top: 20px;
+	display: inline-block;
+}
+.btn2
+{
+	position: absolute;
+    margin-bottom: 50px;
+	padding: 10px 10px;
+    border: 1px solid #FFF;
+	width: 265px;
+	border-radius: 5px;
+	margin-left: -10px;
+	font-family:"Microsoft JhengHei";
+	font-size: 15px;
+}
+.btn-group .btn + .btn
+{
+	margin-right: 50px;
+}
+.btn 
+{
+	padding: 10px 20px;
+	border: 1px solid #FFF;
+	background: -webkit-linear-gradient(#BFBFBF, #F7F7F7);
+	background: -o-linear-gradient(#BFBFBF, #F7F7F7);
+	background: linear-gradient(#BFBFBF, #F7F7F7);
+	background-color: #FFF;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	cursor: pointer;
+	font-family:"Microsoft JhengHei";
+}
+.btn:hover
+{
+	background: none;
+	background-color: #F7F7F7;
+	border: 1px solid #ffffff;
+}
+.btn:active
+{
+	position: relative;
+	top: 1px;
+}
+/*--登入介面彈跳結束--*/
+/*--首頁開始--*/
+.carousel-inner
+{
+    width: 100%;
+    height: 590px;
+}
+.carousel-item
+{
+    width: 100%;
+    height: 1000px;
+}
+.carousel-item img
+{
+    width: 100%;
+    height: 590px;
+}
+/*--首頁結束--*/
+/*--跑馬燈開始--*/
+.marquee
+{
+	color: rgb(68, 66, 180);
+	direction:left;
+	height:5;
+	font-size: 30px;
+	behavior:alternate;
+	margin-top: 20px;
+}
+/*--跑馬燈結束--*/
+/*--小農通路開始--*/
+.commodity
+{
+	margin: auto;
+	margin-top:10px;
+	width: 1240px;
+}
+.commodity .item
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 75px;
+}
+.commodity .item h2
+{
+	display:flex;
+	font-size:30px;
+	font-weight: 750;
+	margin-bottom:10px;
+	box-sizing:border-box;
+}
+.commodity .item h2::before,.commodity .item h2::after
+{
+	display:block;
+	content:'';
+	height:2px;
+	width:200px;
+	background-color:black;
+	margin:auto;
+}
+.commodity .item p
+{ 
+	width: 450px;
+	height: 180px;
+	line-height: 35px;
+	font-size:18px;
+	margin-top: 20px;
+	margin-left:33px;
+}
+.commodity .item .pic
+{
+	width: 46%;
+	flex-shrink: 0;
+}
+.commodity .item .pic img
+{
+	width: 600px;
+	vertical-align: middle;
+	border-radius:20px;
+}
+.commodity.item .literal
+{
+	position: relative;
+	width: 60%;
+	flex-shrink: 0;
+	padding: 50px 30px;
+	box-sizing: border-box;
+	z-index: 1;
+}
+.commodity .item > :first-child
+{
+	margin-right: 10%;
+}
+.commodity .item:nth-child(1) .literal
+{
+   background-color:rgba(114, 226, 187, 0.9);
+   border-radius:5px;
+}
+.commodity .item:nth-child(2) .literal
+{
+   background-color:  rgba(133, 178, 199, 0.9);
+   border-radius:5px;
+}
+.commodity .item:nth-child(3) .literal
+{
+   background-color: rgba(240, 190, 116, 0.9);
+   border-radius:5px;
+}
+/*--小農通路結束--*/
